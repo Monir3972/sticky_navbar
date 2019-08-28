@@ -1,0 +1,101 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+  font-family: 'Bitter', serif;
+}
+a:hover { text-decoration: none }
+.mainmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.mainmenu li {
+    display: inline-block;
+}
+.mainmenu li a {
+    display: block;
+    padding: 16px;
+       
+    padding-right: 0;
+    font-size: 17px;
+    padding-left: 43px;
+    color: #fff;
+}
+.mainmenu li a:hover{
+    color:#CB9B24;
+}
+.homepage-slider h2 {
+    color: #CB9B24;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 53px;
+}
+.single-slide-item {
+    background-color: #263238;
+    color: #fff;
+    font-size: 17px;
+    line-height: 34px;
+   
+}
+.single-slide-item .row {
+   
+    position: relative;
+}
+.single-slide-item img {
+    position: absolute;
+    right: 15px;
+    max-height: 470px;
+    bottom: 0;
+    }
+.slide-text {
+    padding-top: 170px;
+    padding-bottom:130px;
+
+
+}
+.header-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 23px 0;
+    width: 100%;
+    z-index: 9;
+}
+.logo img {
+    max-height: 65px;
+}
+.load-more {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 6px 20px;
+    color: #9B7D2A;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 5px;
+}
